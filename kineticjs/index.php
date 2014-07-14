@@ -13,10 +13,9 @@
     ?>
 </head>
 <body>
-<a href="/canvas/?script=1">Bulles</a> | <a href="/canvas/?script=2">Arcs</a>
+    <a href="<?php echo $_SERVER["SCRIPT_NAME"]; ?>?script=1">Bulles</a> | 
+    <a href="<?php echo $_SERVER["SCRIPT_NAME"]; ?>?script=2">Arcs</a>
 
-<div id="canvas"></div>
-
-
+    <div id="canvas"></div>
 </body>
 </html>
